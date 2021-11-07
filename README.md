@@ -24,7 +24,7 @@ apt update
 | obsidian | &check; | 
 | dpkg-sig | &check; | 
 | spotify-client | &check; | 
-| pyfriend | &cross; | 
-| monbox | &cross; |
+| pyfriend | &check; | 
+| monbox | &check; |
 | monlocal| &cross;|
 | www-general | &cross;|
