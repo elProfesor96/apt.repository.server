@@ -4,11 +4,11 @@ deb packages, easy and fast deploy
 ## Connection
 - Add to /etc/apt/sources.list
 ```bash
-deb http://repos.elprofesor.me/elprofesor /
+deb http://repos.elprofesor.io/elprofesor /
 ```
  - Add repository key
 ```bash
-wget -qO - https://repos.elprofesor.me/key.gpg | sudo apt-key add -
+wget -qO - https://repos.elprofesor.io/key.gpg | sudo apt-key add -
 ```
 - Update
 ```bash
