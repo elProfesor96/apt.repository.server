@@ -1,18 +1,22 @@
 # Apt Repository Server
 ## Summary
-deb packages, easy and fast deploy
+Apt repository server to hold custom .deb packages for easy and fast deploy on any linux with apt package manager. (Any DEBIAN based unix including KALI). 
 ## Connection
-- Add to /etc/apt/sources.list
+- Add elprofesor apt server to /etc/apt/sources.list.d/elprofesor.list
 ```bash
-deb http://repos.elprofesor.io/elprofesor /
+echo 'deb http://repos.elprofesor.io/elprofesor /' > /etc/apt/sources.list.d/elprofesor.list
 ```
- - Add repository key
+ - Add apt server key
 ```bash
 wget -qO - https://repos.elprofesor.io/key.gpg | sudo apt-key add -
 ```
 - Update
 ```bash
 apt update
+```
+- List available packages from apt server
+```bash
+cat /var/lib/apt/lists/repos.elprofesor.io_elprofesor_Packages
 ```
 
 ## Package List
